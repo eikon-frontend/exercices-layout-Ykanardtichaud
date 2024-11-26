@@ -53,3 +53,18 @@ header img {
 .align {
   margin-left: 32px;
 }
+
+@media (max-width: 600px) {
+  * {
+    font-size: 12px; /* Adjust this value as needed */
+  }
+
+  .menu a {
+    font-size: 12px; /* Ensure menu links are also appropriately sized */
+  }
+
+  .align {
+    width: 30%;
+    height: 30%;
+  }
+}
